@@ -1,4 +1,9 @@
 package lab;
 
-public class StringSearch {
+import java.util.List;
+
+public interface StringSearch {
+    List<Integer> search(String text, String pattern);
+
+    Metrics metrics();
 }
