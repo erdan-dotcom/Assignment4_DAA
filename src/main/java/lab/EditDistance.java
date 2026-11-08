@@ -1,4 +1,7 @@
 package lab;
 
-public class EditDistance {
+public interface EditDistance {
+    int distance(String a, String b);
+
+    Metrics metrics();
 }
